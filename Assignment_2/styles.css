@@ -46,4 +46,47 @@
     width: 60%;
     box-shadow:0 4px 4px;
   }
-    
+  
+  /* Responsive Styles */
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    padding: 15px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
+
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h1 {
+    font-size: 1.8rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 0.95rem;
+    text-align: justify;
+  }
+
+  .divider {
+    margin: 30px 0;
+  }
+}
