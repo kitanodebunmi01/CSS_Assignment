@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    color: black;
+    background-color: white;
+  }
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 2rem;
+    margin: 2rem auto;
+    max-width: 1200px;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header .logo {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .header nav a {
+    margin: 0 1rem;
+    color: grey; 
+    text-decoration: none; 
+    font-size: 0.9rem; 
+}
+
+.header .account-button { 
+    padding: 0.5rem 1rem; 
+    background-color: rgb(73, 73, 195); 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+.header .account-button:hover { 
+    background-color: #0a58a6; 
+}
+
+/* Left Section */ 
+.checkout-section { 
+    background-color: white; 
+    height: 500px;
+    padding: 2rem; 
+    border-radius: 8px; 
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1); 
+    flex: 2; 
+}
+
+.checkout-section h1 { 
+    font-size: 1.5rem; 
+    margin-bottom: 1rem; 
+}
+
+.form-section h2 { 
+    font-size: 1.1rem; 
+    margin: 1.5rem 0 0.5rem; 
+}
+
+.form-row { 
+    display: flex; 
+    gap: 1rem; 
+    margin-bottom: 1rem; 
+}
+
+input[type="text"], input[type="email"] { 
+    width: 100%; 
+    padding: 0.8rem; 
+    border: 1px solid grey; 
+    border-radius: 4px; 
+    font-size: 0.9rem; 
+}
+
+.small-inputs { 
+    display: flex; 
+    gap: 0.5rem; 
+}
+
+.small-inputs input { 
+    flex: 1; 
+}
+
+.button { 
+    width: 100%; 
+    padding: 0.8rem; 
+    background-color: #00a651; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    font-size: 1rem; 
+    cursor: pointer; 
+}
+
+.button:hover { 
+    background-color: #008f41; 
+}
+
+.help-text { 
+    margin: 1rem 0; 
+    font-size: 0.85rem; 
+    text-align: center; 
+}
+
+.help-text a { 
+    color: #0073e6; 
+    text-decoration: none; 
+}
+
+.help-text a:hover { 
+    text-decoration: underline; 
+}
+
+.powered-by { 
+    text-align: center; 
+    font-size: 0.8rem; 
+    color: #777; 
+    margin-top: 1rem; 
+}
+
+/* Right Section */ 
+.info-section { 
+    background-color: #0073e6;
+    height: 500px; 
+    color: #fff; 
+    padding: 2rem; 
+    border-radius: 8px; 
+    flex: 1; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: space-between; 
+}
+
+.pricing { 
+    text-align: center; 
+}
+
+.pricing h2 { 
+    font-size: 1.5rem; 
+}
+
+.price { 
+    font-size: 2rem; 
+    font-weight: bold; 
+    margin: 0.5rem 0; 
+}
+
+.price span { 
+    font-size: 1rem; 
+    font-weight: normal; 
+}
+
+.subtitle { 
+    font-size: 0.9rem; 
+    margin: 1rem 0; 
+}
+
+.pricing ul { 
+    list-style: none; 
+    padding: 0; 
+    margin: 1rem 0; 
+}
+
+.pricing ul li { 
+    margin: 0.5rem 0; 
+}
+
+.switch-plan { 
+    font-size: 0.9rem; 
+}
+
+.switch-plan a { 
+    color: #ffdd00; 
+    text-decoration: none; 
+}
+
+.switch-plan a:hover { 
+    text-decoration: underline; 
+}
+
+.testimonial { 
+    margin-top: 2rem; 
+    font-size: 0.9rem; 
+}
+
+.author { 
+    font-weight: bold; 
+    margin-top: 0.5rem; 
+    text-align: left; 
+}
+
+.image{
+  width: 50px;
+  height: 50px; 
+  border-radius: 50%; 
+  object-fit: cover; 
+  overflow: hidden;
+  box-align: left
+}
+
+/* Footer */ 
+.footer { 
+    text-align: center; 
+    font-size: 0.85rem; 
+    margin-top: 2rem; 
+    color: #777; 
+}

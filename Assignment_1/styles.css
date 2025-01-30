@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
 body {
     background-color: black; /* Dark background */
     display: flex;
@@ -12,7 +14,6 @@ body {
   .card {
     background-color: white; /* White background for the card */
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 300px;
     padding: 20px;
     position: relative;
